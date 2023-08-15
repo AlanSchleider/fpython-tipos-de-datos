@@ -7,6 +7,18 @@ print("Ingrese la operación (+, -, *, /)")
 operacion = input()
 
 match operacion:
+    case 'm':
+        # operaqcion modulo:
+        modulo = numero1 % numero2
+        print("El modulo es: " + str(modulo))
+    case 'p':
+        # operacion potencia:
+        potencia1 = numero1 ** numero1
+        potencia2 = numero2 ** numero2
+        potencia3 = numero1 ** numero2
+        print("La primera potencia es: " + str(potencia1))
+        print("La segunda potencia es: " + str(potencia2))
+        print("La tercera potencia es: " + str(potencia3))
     case '+':
         # Operación suma:
         suma = numero1 + numero2
